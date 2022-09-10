@@ -9,6 +9,12 @@
     font-size: 30px;
     cursor: pointer;
     font-weight: 400;
+    transition: filter 0.3s ease-in;
+}
+
+.Button:active,
+.Button:focus {
+    filter: brightness(150%);
 }
 
 .Button.zero {
